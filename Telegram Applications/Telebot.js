@@ -1,7 +1,7 @@
-var token = "1783192770:AAHuNGyNaooLNysdexevH5Qf8T96_V5MVtM";
+var token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 var telegramUrl = "https://api.telegram.org/bot" + token;
-var app_name = "bog-opponent-bot";
-var webAppUrl = "https://script.google.com/macros/s/AKfycbw6504-GKVWdlqx9OU0ROOOFgOCKcrydbHy_UxHgj0C4gzjRgHBqfriY5AdnfYdGZDV/exec";
+var app_name = "sheet-bot";
+var webAppUrl = "https://script.google.com/macros/s/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/exec";
 
 function getOpponent(user){
   var ss = SpreadsheetApp.openById("1hk_xMYXtFSNZEolbfYeUlCgCNy-oLYNv4hrerqK2WCs");
