@@ -1,0 +1,29 @@
+18 entries read
+% % Category search: 2 entries found
+% log entry 10 appended
+% 0|10|07:02:10:12:43|PGM|Beginning master election.
+% Keyword search: 2 entries found
+% Keyword search: 3 entries found
+% 3 log entries appended
+% 0|10|07:02:10:12:43|PGM|Beginning master election.
+1|5|01:07:08:12:00|UI-PANE2|Window received focus.
+2|1|12:15:20:56:23|UI-PANE1|Window received focus.
+3|8|12:15:20:56:50|UI-PANE1|Click event served.
+% Deleted excerpt list entry 1
+% Moved excerpt list entry 1
+% 0|1|12:15:20:56:23|UI-PANE1|Window received focus.
+1|10|07:02:10:12:43|PGM|Beginning master election.
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+% excerpt list sorted
+previous ordering:
+0|1|12:15:20:56:23|UI-PANE1|Window received focus.
+...
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+new ordering:
+0|10|07:02:10:12:43|PGM|Beginning master election.
+...
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+% 0|10|07:02:10:12:43|PGM|Beginning master election.
+1|1|12:15:20:56:23|UI-PANE1|Window received focus.
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+% 

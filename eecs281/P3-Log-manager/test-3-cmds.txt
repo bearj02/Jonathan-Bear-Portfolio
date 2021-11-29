@@ -1,0 +1,19 @@
+g
+c thread thread
+r
+k thread
+r
+k thread thread
+g
+p
+s
+p
+a 18
+d 18
+b 18
+e 18
+# comment capability
+l
+l
+d 0
+q

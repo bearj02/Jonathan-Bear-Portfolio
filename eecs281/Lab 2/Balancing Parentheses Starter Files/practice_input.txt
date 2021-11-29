@@ -1,0 +1,1 @@
+int main(){int x; cin>>x; if(x∗(2 +z[1])){cout<<“hi”;}}

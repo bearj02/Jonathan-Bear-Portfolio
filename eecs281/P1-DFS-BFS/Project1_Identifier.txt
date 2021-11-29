@@ -1,0 +1,4 @@
+The project identifier, in a text file, which is safe to
+copy and paste from (PDF files are NOT safe to copy from):
+
+950181F63D0A883F183EC0A5CC67B19928FE896A

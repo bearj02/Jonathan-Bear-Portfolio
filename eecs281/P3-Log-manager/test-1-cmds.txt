@@ -1,0 +1,11 @@
+# Duplicate entries test
+t 12:11:20:12:12|12:11:20:12:13
+m 12:11:20:12:13
+k Good #8432
+k UI #8431
+k Great
+r
+c TCP
+c Ethernet
+k _CID-#8432
+q
