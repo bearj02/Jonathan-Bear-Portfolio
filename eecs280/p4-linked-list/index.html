@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EECS 280 Office Hours Queue</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style>
+      body {
+        font-family: 'Muli', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page-header" style="text-align: center;">
+      <h3>EECS 280 Office Hours Queue</h3>
+    </div>
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-body">
+            <form id="signUpForm" role="form" class="form-horizontal">
+                  <div class="form-group"><label class="control-label col-sm-3" for="adduniqname">Uniqname:</label>
+                    <div class="col-sm-9"><input type="text" class="form-control" id="adduniqname" required="required"
+                        maxlength="30" placeholder="Nice to meet you!" /></div>
+                  </div>
+                  <div class="form-group"><label class="control-label col-sm-3" for="addlocation">Location:</label>
+                    <div class="col-sm-9"><input type="text" class="form-control" id="addlocation" required="required"
+                        maxlength="30" placeholder="e.g. Computer #36, laptop by glass/atrium door, etc." /></div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9">
+                      <button type="button" class="btn btn-success" onClick="putQueueTail()">Sign Up</button>
+                      <button type="button" class="btn btn-danger" onClick="deleteQueueHead()">Remove Top</button>
+                      <button type="button" class="btn btn-info" onClick="getQueue()">Refresh Queue</button>
+                    </div>
+                  </div>
+                
+              </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="JSEntry" class="container"></div>
+
+    <script>
+     function getQueue () {
+       // Return queue data fetched from REST API.
+       fetch('/api/queue/')
+         .then((response) => {
+           if (!response.ok) handleBadResponse(response);
+           return response.json();
+         })
+         .then((data) => {
+           showQueue(data);
+         })
+         .catch(error => console.log(error));
+     }
+
+     function putQueueTail() {
+       const uniqname = document.getElementById('adduniqname').value;
+       const location = document.getElementById('addlocation').value;
+
+       // POST request to /api/queue/tail/
+       fetch('/api/queue/tail/', {
+           method: 'POST',
+           headers: {
+             'Content-Type': 'application/json; charset=utf-8',
+           },
+           body: JSON.stringify({uniqname, location}),
+         })
+         .then((response) => {
+           if (!response.ok) handleBadResponse(response);
+           return response.json();
+         })
+         .then((data) => {
+           getQueue();
+         })
+         .catch(error => console.log(error));
+     }
+
+     function deleteQueueHead() {
+       // DELETE request to /api/queue/head/
+       fetch('/api/queue/head/', {
+           method: 'DELETE',
+         })
+         .then((response) => {
+          if (!response.ok) handleBadResponse(response);
+           //return response.json();
+         })
+         .then((data) => {
+           getQueue();
+         })
+         .catch((error) => {
+           // NOTE: we get a bad request error because the backend returns
+           // a 204 response that contains Content-Type and Content-Length 0.
+           // Technically this is not allowed in HTTP.
+           getQueue();
+           console.log(error);
+         });
+     }
+
+    function showQueue(queueData) {
+      // Display JSON queue data in page's HTML
+
+      // Get a reference to the DOM node that we should modify and clear data
+      const entry = document.getElementById('JSEntry');
+      while (entry.firstChild) {
+        entry.removeChild(entry.firstChild);
+      }
+
+      // Empty queue
+      if (!queueData || !queueData['results']) {
+        entry.innerHTML = "The queue is empty"
+        return;
+      }
+
+      // List the users on the queue
+      queueData['results'].forEach((i) => {
+        const queueItem = document.createElement('li');
+        queueItem.className = "list-group-item";
+        queueItem.innerHTML = `<p><span class="glyphicon glyphicon-sort">
+                                  </span> ${i.position}</p>
+                               <p><span class="glyphicon glyphicon-education">
+                                  </span> ${i.uniqname}</p>
+                               <p><span class="glyphicon glyphicon-map-marker">
+                                  </span> ${i.location}</p>`
+        entry.appendChild(queueItem);
+      });
+    }
+
+    function handleBadResponse(response) {
+      if (response.status === 400 && response.statusText === "Bad Request") {
+        $("#errorDialog").modal("show");
+      }
+      throw Error(response.statusText);
+    }
+
+     // Initial UI update
+     getQueue();
+
+    </script>
+
+    <div id="errorDialog" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Bad Request</h4>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <p>Your REST API responded with 400 Bad Request!</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+commit 9efdf91918f37602b8930358837988de27deb61f
+Author: bearj <bearj@umich.edu>
+Date:   Wed Sep 9 17:38:56 2020 -0400
+
+    Added quick start to README
+
+commit 63c07c76ce822a84a1c8ca20cbe993b2b9b96c73
+Author: bearj <bearj@umich.edu>
+Date:   Wed Sep 9 17:37:37 2020 -0400
+
+    Added README
+
+commit 388e0d57266585b5dc9ea4039a603646713c88c4
+Author: bearj <bearj@umich.edu>
+Date:   Wed Sep 9 17:34:15 2020 -0400
+
+    Initial commit.  Starter files with function stubs.

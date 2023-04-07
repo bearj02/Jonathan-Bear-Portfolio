@@ -1,0 +1,13 @@
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ echo "Hello bearj"
+Hello bearj
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ hostname
+LAPTOP-RR9UEC04
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ make clean
+rm -rvf *.exe *~ *.out *.dSYM *.stackdump
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ make stats_tests.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_tests.cpp stats.cpp p1_library.cpp -o stats_tests.exe
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ make stats_public_test.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g stats_public_test.cpp stats.cpp p1_library.cpp -o stats_public_test.exe
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$ make main.exe
+g++ --std=c++11 -Wall -Werror -pedantic -g main.cpp stats.cpp p1_library.cpp -o main.exe
+bearj@LAPTOP-RR9UEC04:/mnt/c/Users/jtb01/Desktop/EECS 280/eecs280/lab1$
