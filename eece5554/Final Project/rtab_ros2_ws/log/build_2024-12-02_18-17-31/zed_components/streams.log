@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/jon/rtab_ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/zed_components
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.187s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.349s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.529s] [31mCMake Error at CMakeLists.txt:81 (find_package):
+[0.529s]   By not providing "FindZED.cmake" in CMAKE_MODULE_PATH this project has
+[0.530s]   asked CMake to find a package configuration file provided by "ZED", but
+[0.530s]   CMake did not find one.
+[0.530s] 
+[0.530s]   Could not find a package configuration file provided by "ZED" with any of
+[0.530s]   the following names:
+[0.530s] 
+[0.531s]     ZEDConfig.cmake
+[0.531s]     zed-config.cmake
+[0.531s] 
+[0.531s]   Add the installation prefix of "ZED" to CMAKE_PREFIX_PATH or set "ZED_DIR"
+[0.531s]   to a directory containing one of the above files.  If "ZED" provides a
+[0.531s]   separate development package or SDK, be sure it has been installed.
+[0.531s] 
+[0.532s] [0m
+[0.532s] -- Configuring incomplete, errors occurred!
+[0.532s] See also "/home/jon/rtab_ros2_ws/build/zed_components/CMakeFiles/CMakeOutput.log".
+[0.534s] Invoked command in '/home/jon/rtab_ros2_ws/build/zed_components' returned '1': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/zed_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/zed_components

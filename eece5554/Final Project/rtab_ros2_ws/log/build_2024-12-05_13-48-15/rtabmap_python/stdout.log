@@ -1,0 +1,29 @@
+running develop
+Removing /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+running egg_info
+writing ../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+writing requirements to ../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+writing top-level names to ../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build
+creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib
+creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+copying rtabmap_python/compression.py -> /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+copying rtabmap_python/__init__.py -> /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+running install
+running install_lib
+creating /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+copying /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python/compression.py -> /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+copying /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python/__init__.py -> /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+byte-compiling /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python/compression.py to compression.cpython-310.pyc
+byte-compiling /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rtabmap_python -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+copying package.xml -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/rtabmap_python
+running install_egg_info
+Copying ../../../build/rtabmap_python/rtabmap_python.egg-info to /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jon/rtab_ros2_ws/build/rtabmap_python/install.log'

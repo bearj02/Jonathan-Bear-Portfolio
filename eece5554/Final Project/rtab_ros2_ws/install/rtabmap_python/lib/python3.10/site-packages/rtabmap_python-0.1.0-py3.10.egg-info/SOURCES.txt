@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt
+../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+../../../build/rtabmap_python/rtabmap_python.egg-info/zip-safe
+resource/rtabmap_python
+rtabmap_python/.gitignore
+rtabmap_python/__init__.py
+rtabmap_python/compression.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,24 @@
+[  0%] Built target rtabmap_msgs__cpp
+[  0%] Built target ament_cmake_python_symlink_rtabmap_msgs
+[ 12%] Built target rtabmap_msgs__rosidl_generator_c
+[ 25%] Built target rtabmap_msgs__rosidl_typesupport_c
+[ 37%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c
+[ 62%] Built target rtabmap_msgs__rosidl_typesupport_cpp
+[ 75%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp
+[ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c
+[ 88%] Built target rtabmap_msgs
+[ 88%] Built target rtabmap_msgs__py
+[100%] Built target rtabmap_msgs__rosidl_generator_py
+[100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext
+[100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing rtabmap_msgs.egg-info/PKG-INFO
+writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt
+writing top-level names to rtabmap_msgs.egg-info/top_level.txt
+[2;36m[12/02/24 18:26:32][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=712445;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=13115;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         there aren't any                          [2m         [0m
+reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_rtabmap_msgs_egg

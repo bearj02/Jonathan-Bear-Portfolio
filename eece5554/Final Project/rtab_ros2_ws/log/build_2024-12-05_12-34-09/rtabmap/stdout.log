@@ -1,0 +1,156 @@
+-- MOBILE_BUILD=OFF
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+-- Found SQLite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+-- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+-- Add PCL_OMP to definitions
+-- Found OpenCV: /usr/include/opencv4
+-- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+-- Found ZLIB: /usr/include
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+-- VTK_RENDERING_BACKEND=
+-- Found OpenNI2: /usr/include/openni2
+-- Found DC1394: /usr/include/dc1394
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found g2o (targets)
+-- g2o include dir: /opt/ros/humble/include
+-- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+-- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+-- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+-- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+-- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+-- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+-- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+-- Found CUDA: /usr (found suitable version "11.5", minimum required is "11") 
+-- Found ZED sdk: /usr/local/zed/include
+-- Found CUDA: /usr (found version "11.5") 
+-- Found CUDA: /usr/include
+-- Found RealSense2: 
+-- Found octomap 1.9.7: /usr/include
+-- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+-- Architecture: x86_64
+-- Found Pthreads
+-- --------------------------------------------
+-- Info :
+--   RTAB-Map Version =     0.21.8
+--   CMAKE_VERSION =        3.22.1
+--   CMAKE_INSTALL_PREFIX = /home/jon/rtab_ros2_ws/install/rtabmap
+--   CMAKE_BUILD_TYPE =     Release
+--   CMAKE_INSTALL_LIBDIR = lib
+--   BUILD_APP =            ON
+--   BUILD_TOOLS =          ON
+--   BUILD_EXAMPLES =       ON
+--   BUILD_SHARED_LIBS =    ON
+--   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+--   FLANN_KDTREE_MEM_OPT = OFF
+--   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+--   PCL_VERSION = 1.12.1
+-- 
+-- Optional dependencies ('*' affects some default parameters) :
+--  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+--   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+--   With VTK 9.1              = YES (License: BSD)
+--   With external SQLite3     = YES (License: Public Domain)
+--   With ORB OcTree           = YES (License: GPLv3)
+--   With SupertPoint          = NO (WITH_TORCH=OFF)
+--   With Python3              = NO (WITH_PYTHON=OFF)
+--   With Madgwick             = YES (License: GPL)
+--   With FastCV               = NO (FastCV not found)
+--   With PDAL                 = NO (PDAL not found)
+--   With libLAS               = NO (WITH_LIBLAS=OFF)
+--   With CudaSift             = NO (WITH_CUDASIFT=OFF)
+-- 
+--  Solvers:
+--   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+--  *With g2o 1.0.0            = YES (License: BSD)
+--  *With GTSAM 4.2.0          = YES (License: BSD)
+--  *With Ceres                = NO (WITH_CERES=OFF)
+--   With MRPT                 = NO (MRPT not found)
+--   With VERTIGO              = YES (License: GPLv3)
+--   With cvsba                = NO (WITH_CVSBA=OFF)
+--  *With libpointmatcher 1.3.1 = YES (License: BSD)
+--   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+--   With Open3D               = NO (WITH_OPEN3D=OFF)
+--   With OpenGV               = NO (OpenGV not found)
+-- 
+--  Reconstruction Approaches:
+--   With OctoMap 1.9.7        = YES (License: BSD)
+--   With GridMap 2.0.0        = YES (License: BSD)
+--   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+--   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+--   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+-- 
+--  Camera Drivers:
+--   With Freenect             = NO (libfreenect not found)
+--   With OpenNI               = YES (License: Apache v2)
+--   With OpenNI2              = YES (License: Apache v2)
+--   With Freenect2            = NO (libfreenect2 not found)
+--   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+--   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+--   With dc1394               = YES (License: LGPL)
+--   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+--   With ZED                  = YES
+--   With ZEDOC                = NO (ZED Open Capture not found)
+--   With RealSense            = NO (librealsense not found)
+--   With RealSense2 2.55.1    = YES (License: Apache-2)
+--   With MyntEyeS             = NO (mynteye s sdk not found)
+--   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+--   With XVisio SDK           = NO (WITH_XVSDK=OFF)
+-- 
+--  Odometry Approaches:
+--   With loam_velodyne        = NO (WITH_LOAM=OFF)
+--   With floam                = NO (WITH_FLOAM=OFF)
+--   With libfovis             = NO (WITH_FOVIS=OFF)
+--   With libviso2             = NO (WITH_VISO2=OFF)
+--   With dvo_core             = NO (WITH_DVO=OFF)
+--   With okvis                = NO (WITH_OKVIS=OFF)
+--   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+--   With VINS-Fusion          = NO (WITH_VINS=OFF)
+--   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+--   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+-- Show all options with: cmake -LA | grep WITH_
+-- --------------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jon/rtab_ros2_ws/build/rtabmap
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_utilite[0m
+[  5%] Built target rtabmap_utilite
+[35m[1mConsolidate compiler generated dependencies of target res_tool[0m
+[  6%] Built target res_tool
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_core[0m
+[  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCapture.cpp.o[0m
+[ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCaptureThread.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect2.cpp.o[0m
+[ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraImages.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4W2.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4A.cpp.o[0m
+[ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenni.cpp.o[0m
+[ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNI2.cpp.o[0m

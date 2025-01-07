@@ -1,0 +1,144 @@
+[0.027s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_sync
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.468s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.392s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.487s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.493s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.503s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.609s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.664s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.667s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.851s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.906s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.918s] -- Looking for pthread.h
+[2.010s] -- Looking for pthread.h - found
+[2.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.107s] -- Found Threads: TRUE  
+[2.191s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.218s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.239s] -- Found rtabmap_conversions: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[2.311s] -- Checking for module 'eigen3'
+[2.331s] --   Found eigen3, version 3.4.0
+[2.385s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.385s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.445s] -- Checking for module 'flann'
+[2.471s] --   Found flann, version 1.9.1
+[2.541s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.542s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.921s] -- Checking for module 'libusb-1.0'
+[3.947s] --   Found libusb-1.0, version 1.0.25
+[4.015s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.017s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.162s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.375s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.386s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.397s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.584s] -- Found Qhull version 8.0.2
+[4.797s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.998s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.999s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.000s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.001s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.002s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.003s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.004s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.005s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.005s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.007s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.008s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.009s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.010s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.012s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.013s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.015s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.016s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.018s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.019s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.021s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.022s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.023s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.023s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.024s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.026s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.154s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.154s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.160s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[5.160s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.160s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.160s]   command to set the policy and suppress this warning.
+[5.160s] 
+[5.161s]   CMake variable PCL_ROOT is set to:
+[5.161s] 
+[5.161s]     /usr
+[5.161s] 
+[5.161s]   For compatibility, CMake is ignoring the variable.
+[5.161s] Call Stack (most recent call first):
+[5.161s]   /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+[5.161s]   /home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.161s]   /home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+[5.161s]   CMakeLists.txt:10 (find_package)
+[5.162s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.162s] [0m
+[5.188s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.215s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[5.215s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[5.331s] -- Configuring done
+[5.587s] -- Generating done
+[5.591s] -- Build files have been written to: /home/jon/rtab_ros2_ws/build/rtabmap_sync
+[5.621s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_sync
+[5.623s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_sync -- -j8 -l8
+[5.705s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[5.706s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[5.707s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[5.711s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[5.718s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[5.718s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[5.719s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[5.720s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[772.488s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[772.489s] compilation terminated.
+[772.505s] gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:90: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o] Error 1
+[772.505s] gmake[2]: *** Waiting for unfinished jobs....
+[1037.247s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[1037.251s] compilation terminated.
+[1037.251s] gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:76: CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o] Error 1
+[1037.260s] gmake[2]: *** Waiting for unfinished jobs....
+[1091.673s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[1091.674s] compilation terminated.
+[1091.675s] gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:118: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o] Error 1
+[1175.612s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[1175.613s] compilation terminated.
+[1175.614s] gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:76: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o] Error 1
+[1388.961s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[1388.962s] compilation terminated.
+[1388.962s] gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:104: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o] Error 1
+[2238.885s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[2238.888s] compilation terminated.
+[2238.897s] gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:104: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o] Error 1
+[2884.983s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[2884.984s] compilation terminated.
+[2884.984s] gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:90: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o] Error 1
+[2884.984s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/rtabmap_sync.dir/all] Error 2
+[2884.984s] gmake[1]: *** Waiting for unfinished jobs....
+[3158.922s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[3158.923s] compilation terminated.
+[3158.932s] gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:118: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o] Error 1
+[3158.934s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/rtabmap_sync_plugins.dir/all] Error 2
+[3158.945s] gmake: *** [Makefile:146: all] Error 2
+[3159.056s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync' returned '2': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_sync -- -j8 -l8

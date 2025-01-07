@@ -1,0 +1,75 @@
+[0.030s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_sync
+[0.114s] [  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[68.128s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[156.148s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[197.600s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[284.880s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[347.540s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[409.528s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[466.314s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[492.402s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[527.078s] [ 43%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[531.299s] [ 43%] Built target rtabmap_sync
+[531.343s] [ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[569.520s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[596.814s] [ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[621.712s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[648.801s] [ 65%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[650.605s] [ 65%] Built target rtabmap_sync_plugins
+[650.637s] [ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[660.187s] [ 73%] [32m[1mLinking CXX executable rgbd_sync[0m
+[661.652s] [ 73%] Built target rtabmap_rgbd_sync
+[661.686s] [ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[671.839s] [ 82%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[673.301s] [ 82%] Built target rtabmap_rgbdx_sync
+[673.343s] [ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[682.934s] [ 91%] [32m[1mLinking CXX executable stereo_sync[0m
+[684.418s] [ 91%] Built target rtabmap_stereo_sync
+[684.453s] [ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[694.178s] [100%] [32m[1mLinking CXX executable rgb_sync[0m
+[695.639s] [100%] Built target rtabmap_rgb_sync
+[695.657s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_sync
+[695.756s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_sync
+[695.766s] -- Install configuration: "Release"
+[695.767s] -- Execute custom install script
+[695.768s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+[695.780s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+[695.793s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+[695.813s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+[695.824s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+[695.835s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+[695.857s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+[695.876s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+[695.888s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+[695.900s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+[695.911s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+[695.922s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+[695.934s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+[695.952s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+[695.963s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+[695.975s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+[695.987s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+[696.000s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+[696.013s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+[696.025s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+[696.037s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+[696.049s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+[696.061s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+[696.073s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+[696.085s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+[696.097s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+[696.111s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+[696.123s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+[696.181s] -- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+[696.181s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+[696.187s] -- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+[696.187s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include
+[696.187s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+[696.188s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+[696.189s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake
+[696.193s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_sync

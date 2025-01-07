@@ -1,0 +1,33 @@
+[3.357s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_python': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build
+[4.546s] running develop
+[5.203s] Removing /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[5.307s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build
+[5.310s] Invoking command in '/home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_python': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/jon/rtab_ros2_ws/build/rtabmap_python/build install --record /home/jon/rtab_ros2_ws/build/rtabmap_python/install.log --single-version-externally-managed install_data --force
+[6.638s] running egg_info
+[6.727s] writing ../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+[6.794s] writing dependency_links to ../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+[7.132s] writing requirements to ../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+[7.198s] writing top-level names to ../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+[7.415s] writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+[7.416s] running build
+[7.416s] running build_py
+[7.416s] creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build
+[7.416s] creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib
+[7.416s] creating /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+[7.417s] copying rtabmap_python/compression.py -> /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+[7.417s] copying rtabmap_python/__init__.py -> /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python
+[7.417s] running install
+[7.424s] running install_lib
+[7.509s] creating /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+[7.509s] copying /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python/compression.py -> /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+[7.509s] copying /home/jon/rtab_ros2_ws/build/rtabmap_python/build/lib/rtabmap_python/__init__.py -> /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python
+[7.509s] byte-compiling /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python/compression.py to compression.cpython-310.pyc
+[7.510s] byte-compiling /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python/__init__.py to __init__.cpython-310.pyc
+[7.510s] running install_data
+[7.511s] copying resource/rtabmap_python -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[7.511s] copying package.xml -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/rtabmap_python
+[7.511s] running install_egg_info
+[7.602s] Copying ../../../build/rtabmap_python/rtabmap_python.egg-info to /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info
+[7.603s] running install_scripts
+[7.781s] writing list of installed files to '/home/jon/rtab_ros2_ws/build/rtabmap_python/install.log'
+[7.863s] Invoked command in '/home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_python' returned '0': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/jon/rtab_ros2_ws/build/rtabmap_python/build install --record /home/jon/rtab_ros2_ws/build/rtabmap_python/install.log --single-version-externally-managed install_data --force

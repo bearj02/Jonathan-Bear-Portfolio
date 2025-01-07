@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-56a6d1b175d4283dcbd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_slam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_node-Release-5fc08f50ab1e1545dbaf.json",
+					"name" : "rtabmap_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_slam_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_slam_plugins-Release-a0418aee674291e980ce.json",
+					"name" : "rtabmap_slam_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_slam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_slam_uninstall-Release-887d80503b212246f230.json",
+					"name" : "rtabmap_slam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f18e8bc07819c3781667.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jon/rtab_ros2_ws/build/rtabmap_slam",
+		"source" : "/home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_slam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

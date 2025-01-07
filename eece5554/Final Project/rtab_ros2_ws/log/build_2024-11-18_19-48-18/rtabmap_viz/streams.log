@@ -1,0 +1,133 @@
+[0.022s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_viz -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_viz
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.251s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.403s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.740s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.813s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.893s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.903s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.918s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.058s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.119s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.123s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.264s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.306s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.357s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.372s] -- Looking for pthread.h
+[2.470s] -- Looking for pthread.h - found
+[2.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.575s] -- Found Threads: TRUE  
+[2.634s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.649s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.673s] -- Found rtabmap_msgs: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[2.703s] -- Found rtabmap_sync: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[2.892s] -- Checking for module 'eigen3'
+[2.921s] --   Found eigen3, version 3.4.0
+[2.995s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.995s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.052s] -- Checking for module 'flann'
+[3.080s] --   Found flann, version 1.9.1
+[3.165s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.165s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.651s] -- Checking for module 'libusb-1.0'
+[4.680s] --   Found libusb-1.0, version 1.0.25
+[4.749s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.751s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.854s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.093s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.103s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.115s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.336s] -- Found Qhull version 8.0.2
+[5.569s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.795s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.796s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.798s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.799s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.801s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.802s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.803s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.804s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.805s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.806s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.808s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.810s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.811s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.813s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.814s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.816s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.817s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.819s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.821s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.822s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.823s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.824s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.826s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.827s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.830s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.950s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.950s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.957s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[5.957s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.957s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.957s]   command to set the policy and suppress this warning.
+[5.957s] 
+[5.957s]   CMake variable PCL_ROOT is set to:
+[5.957s] 
+[5.957s]     /usr
+[5.957s] 
+[5.957s]   For compatibility, CMake is ignoring the variable.
+[5.957s] Call Stack (most recent call first):
+[5.958s]   /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+[5.958s]   /home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.958s]   /home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+[5.958s]   /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.958s]   /home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake:41 (include)
+[5.958s]   CMakeLists.txt:16 (find_package)
+[5.958s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.958s] [0m
+[6.034s] -- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d imgproc highgui stitching photo video aruco objdetect missing components: xfeatures2d nonfree gpu cudafeatures2d
+[6.160s] -- Configuring done
+[6.230s] -- Generating done
+[6.233s] -- Build files have been written to: /home/jon/rtab_ros2_ws/build/rtabmap_viz
+[6.263s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_viz -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_viz
+[6.267s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_viz
+[6.340s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o[0m
+[23.546s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o[0m
+[79.155s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o[0m
+[92.213s] [100%] [32m[1mLinking CXX executable rtabmap_viz[0m
+[97.528s] [100%] Built target rtabmap_viz
+[97.548s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_viz
+[97.592s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_viz
+[97.603s] -- Install configuration: "Release"
+[97.604s] -- Execute custom install script
+[97.605s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+[97.619s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+[97.633s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+[97.645s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+[97.658s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+[97.671s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+[97.684s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+[97.696s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+[97.709s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+[97.721s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+[97.735s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+[97.749s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+[97.768s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+[97.783s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+[97.797s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+[97.811s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml
+[97.830s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_viz

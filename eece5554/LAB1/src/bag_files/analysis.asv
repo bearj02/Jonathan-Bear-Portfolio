@@ -1,0 +1,44 @@
+clf
+east_avg = mean(stationarydata.Easting);
+north_avg = mean(stationarydata.Northing);
+figure(1);
+hold off;
+stationary_error = sqrt((stationarydata.Easting - east_avg).^2 + (stationarydata.Northing - north_avg).^2);
+plot(stationarydata.Easting, stationarydata.Northing, 'b.', east_avg, north_avg, 'ro','MarkerSize',10);
+hold on;
+title('UTM Readings for Stationary GPS Device in Zone 32 Letter T');
+xlabel('Easting (m)');
+ylabel('Northing (m)');
+legend('GPS Readings','GPS Readings Average');
+figure(2);
+hold off;
+histogram(stationary_error);
+hold on;
+title('Euclidean Distance Error Histogram for Stationary GPS Device');
+xlabel('Error (m)');
+ylabel('Frequency');
+mae = sum(stationary_error)/2194;
+%% Walking Data
+
+figure(3)
+hold off;
+mdl = fitlm(walkingdata.Easting, walkingdata.Northing);
+scatter(walkingdata.Easting,walkingdata.Northing,1);
+hold on;
+x = linspace(min(walkingdata.Easting),max(walkingdata.Easting));
+y = mdl.Coefficients{2,1}.*x + mdl.Coefficients{1,1};
+line(x,y);
+title('UTM Readings for Walking GPS Device in Zone 32 Letter T');
+xlabel('Easting (m)');
+ylabel('Northing (m)');
+legend('GPS Readings','Least-Squares Regression Fit');
+
+figure(4);
+hold off;
+u = [1 mdl.Coefficients{2,1} 0];
+I0 = [0 mdl.Coefficients{1,1} 0];
+walk = [walkingdata.Easting walkingdata.Northing zeros(1492,1)];
+walking_error = point_to_line_distance(walk, u, I0);
+histogram(walking_error);
+maew = sum(walking_error)/1492;
+hold on;

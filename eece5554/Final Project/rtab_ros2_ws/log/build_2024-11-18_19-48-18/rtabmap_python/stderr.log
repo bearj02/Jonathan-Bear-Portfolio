@@ -1,0 +1,3 @@
+/home/jon/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any

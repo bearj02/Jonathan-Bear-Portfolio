@@ -1,0 +1,99 @@
+[0.037s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_odom
+[0.055s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.216s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.256s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.259s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.351s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.382s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.579s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.596s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.637s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.680s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.114s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.125s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.324s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.336s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.348s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.538s] -- Found Qhull version 8.0.2
+[1.740s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.950s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.964s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.047s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.066s] -- Found rtabmap_conversions: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[2.125s] -- Found rtabmap_util: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[2.262s] -- Found rtabmap_sync: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[2.491s] -- Configuring done
+[2.865s] -- Generating done
+[2.933s] -- Build files have been written to: /home/jon/rtab_ros2_ws/build/rtabmap_odom
+[2.959s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom' returned '0': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap_odom
+[2.961s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_odom
+[3.046s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_odom[0m
+[3.095s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/OdometryROS.cpp.o[0m
+[40.110s] [ 16%] [32m[1mLinking CXX shared library librtabmap_odom.so[0m
+[41.987s] [ 16%] Built target rtabmap_odom
+[42.015s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_odom_plugins[0m
+[42.080s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[91.393s] [ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[141.147s] [ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[171.121s] [ 50%] [32m[1mLinking CXX shared library librtabmap_odom_plugins.so[0m
+[173.834s] [ 50%] Built target rtabmap_odom_plugins
+[173.853s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_odometry[0m
+[173.903s] [ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[189.393s] [ 66%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[192.250s] [ 66%] Built target rtabmap_rgbd_odometry
+[192.273s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_stereo_odometry[0m
+[192.332s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[207.580s] [ 83%] [32m[1mLinking CXX executable stereo_odometry[0m
+[210.355s] [ 83%] Built target rtabmap_stereo_odometry
+[210.376s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_icp_odometry[0m
+[210.437s] [ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[224.980s] [100%] [32m[1mLinking CXX executable icp_odometry[0m
+[227.804s] [100%] Built target rtabmap_icp_odometry
+[227.822s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom' returned '0': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_odom
+[227.824s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_odom
+[227.836s] -- Install configuration: "Release"
+[227.836s] -- Execute custom install script
+[227.837s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+[227.837s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+[227.838s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+[227.838s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+[227.838s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+[227.838s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+[227.839s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+[227.839s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+[227.839s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+[227.840s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+[227.840s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+[227.840s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+[227.841s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+[227.841s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+[227.841s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+[227.841s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+[227.855s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+[227.856s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+[227.856s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+[227.856s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+[227.857s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+[227.857s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+[227.858s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+[227.858s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+[227.858s] -- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/package.xml
+[227.859s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+[227.862s] -- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom.so" to ""
+[227.863s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+[227.870s] -- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so" to ""
+[227.870s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include
+[227.870s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom
+[227.870s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+[227.870s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+[227.871s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+[227.871s] -- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake
+[227.875s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_odom' returned '0': CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/zed_ros2:/home/jon/rtab_ros2_ws/install/zed_wrapper:/home/jon/rtab_ros2_ws/install/zed_components:/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/home/jon/rtab_ros2_ws/install/zed_components/lib:/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_odom

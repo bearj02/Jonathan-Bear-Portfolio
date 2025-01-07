@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_msgs -- -j8 -l8
+[0.173s] [  0%] Built target rtabmap_msgs__cpp
+[0.184s] [  0%] Built target ament_cmake_python_symlink_rtabmap_msgs
+[0.200s] [ 12%] Built target rtabmap_msgs__rosidl_generator_c
+[0.314s] [ 35%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp
+[0.314s] [ 37%] Built target rtabmap_msgs__rosidl_typesupport_cpp
+[0.319s] [ 50%] Built target rtabmap_msgs__rosidl_typesupport_c
+[0.343s] [ 88%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c
+[0.343s] [ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp
+[0.343s] [ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c
+[0.387s] [ 88%] Built target rtabmap_msgs
+[0.429s] [ 88%] Built target rtabmap_msgs__py
+[0.509s] [100%] Built target rtabmap_msgs__rosidl_generator_py
+[0.559s] [100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext
+[0.559s] [100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.569s] [100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext
+[1.564s] running egg_info
+[1.652s] writing rtabmap_msgs.egg-info/PKG-INFO
+[1.716s] writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt
+[2.167s] writing top-level names to rtabmap_msgs.egg-info/top_level.txt
+[2.362s] [2;36m[12/02/24 18:33:22][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=695682;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=401529;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2.362s] [2;36m                    [0m         there aren't any                          [2m         [0m
+[2.508s] reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[2.510s] writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[2.605s] [100%] Built target ament_cmake_python_build_rtabmap_msgs_egg
+[2.624s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_msgs -- -j8 -l8

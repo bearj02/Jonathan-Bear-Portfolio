@@ -1,0 +1,93 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rtabmap_conversions: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+-- Found rtabmap_util: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+-- Found rtabmap_sync: 0.21.5 (/home/jon/rtab_ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jon/rtab_ros2_ws/build/rtabmap_odom
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_odom[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/OdometryROS.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library librtabmap_odom.so[0m
+[ 16%] Built target rtabmap_odom
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_odom_plugins[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librtabmap_odom_plugins.so[0m
+[ 50%] Built target rtabmap_odom_plugins
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_odometry[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[ 66%] Built target rtabmap_rgbd_odometry
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_stereo_odometry[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable stereo_odometry[0m
+[ 83%] Built target rtabmap_stereo_odometry
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_icp_odometry[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable icp_odometry[0m
+[100%] Built target rtabmap_icp_odometry
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/package.xml
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+-- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom.so" to ""
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+-- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so" to ""
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake

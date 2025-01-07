@@ -1,0 +1,25 @@
+[2.590s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_python': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build --no-deps symlink_data
+[3.591s] running develop
+[3.591s] /home/jon/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.592s]   warnings.warn(
+[4.286s] running egg_info
+[4.286s] creating rtabmap_python.egg-info
+[4.375s] writing rtabmap_python.egg-info/PKG-INFO
+[4.438s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[4.776s] writing requirements to rtabmap_python.egg-info/requires.txt
+[4.840s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[4.840s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.999s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[5.176s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[5.177s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[5.269s] running build_ext
+[5.269s] Creating /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[5.270s] 
+[5.270s] Installed /home/jon/rtab_ros2_ws/build/rtabmap_python
+[5.270s] running symlink_data
+[5.270s] creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index
+[5.271s] creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index
+[5.271s] creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[5.271s] symbolically linking /home/jon/rtab_ros2_ws/build/rtabmap_python/resource/rtabmap_python -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[5.272s] symbolically linking /home/jon/rtab_ros2_ws/build/rtabmap_python/package.xml -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/rtabmap_python
+[5.359s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build --no-deps symlink_data

@@ -1,0 +1,889 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (rtabmap) JobQueued: {'identifier': 'rtabmap', 'dependencies': OrderedDict()}
+[0.000554] (rtabmap_msgs) JobQueued: {'identifier': 'rtabmap_msgs', 'dependencies': OrderedDict()}
+[0.000607] (rtabmap_python) JobQueued: {'identifier': 'rtabmap_python', 'dependencies': OrderedDict()}
+[0.000656] (zed_msgs) JobQueued: {'identifier': 'zed_msgs', 'dependencies': OrderedDict()}
+[0.000703] (rtabmap_conversions) JobQueued: {'identifier': 'rtabmap_conversions', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs')])}
+[0.000760] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict([('zed_msgs', '/home/jon/rtab_ros2_ws/install/zed_msgs')])}
+[0.000812] (rtabmap_rviz_plugins) JobQueued: {'identifier': 'rtabmap_rviz_plugins', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions')])}
+[0.000868] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions')])}
+[0.000920] (rtabmap_util) JobQueued: {'identifier': 'rtabmap_util', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions')])}
+[0.000973] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_msgs', '/home/jon/rtab_ros2_ws/install/zed_msgs'), ('zed_components', '/home/jon/rtab_ros2_ws/install/zed_components')])}
+[0.001025] (rtabmap_odom) JobQueued: {'identifier': 'rtabmap_odom', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util')])}
+[0.001082] (rtabmap_slam) JobQueued: {'identifier': 'rtabmap_slam', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util')])}
+[0.001200] (rtabmap_viz) JobQueued: {'identifier': 'rtabmap_viz', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync')])}
+[0.001271] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_msgs', '/home/jon/rtab_ros2_ws/install/zed_msgs'), ('zed_components', '/home/jon/rtab_ros2_ws/install/zed_components'), ('zed_wrapper', '/home/jon/rtab_ros2_ws/install/zed_wrapper')])}
+[0.001325] (rtabmap_demos) JobQueued: {'identifier': 'rtabmap_demos', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/jon/rtab_ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/jon/rtab_ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/jon/rtab_ros2_ws/install/rtabmap_viz')])}
+[0.001413] (rtabmap_examples) JobQueued: {'identifier': 'rtabmap_examples', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/jon/rtab_ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/jon/rtab_ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/jon/rtab_ros2_ws/install/rtabmap_viz')])}
+[0.001485] (rtabmap_launch) JobQueued: {'identifier': 'rtabmap_launch', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/jon/rtab_ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/jon/rtab_ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/jon/rtab_ros2_ws/install/rtabmap_viz')])}
+[0.001554] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict([('rtabmap', '/home/jon/rtab_ros2_ws/install/rtabmap'), ('rtabmap_msgs', '/home/jon/rtab_ros2_ws/install/rtabmap_msgs'), ('rtabmap_python', '/home/jon/rtab_ros2_ws/install/rtabmap_python'), ('rtabmap_conversions', '/home/jon/rtab_ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/jon/rtab_ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/jon/rtab_ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/jon/rtab_ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/jon/rtab_ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/jon/rtab_ros2_ws/install/rtabmap_viz'), ('rtabmap_demos', '/home/jon/rtab_ros2_ws/install/rtabmap_demos'), ('rtabmap_examples', '/home/jon/rtab_ros2_ws/install/rtabmap_examples'), ('rtabmap_launch', '/home/jon/rtab_ros2_ws/install/rtabmap_launch')])}
+[0.001629] (rtabmap) JobStarted: {'identifier': 'rtabmap'}
+[0.009290] (rtabmap_msgs) JobStarted: {'identifier': 'rtabmap_msgs'}
+[0.017177] (zed_msgs) JobStarted: {'identifier': 'zed_msgs'}
+[0.023095] (rtabmap_python) JobStarted: {'identifier': 'rtabmap_python'}
+[0.033668] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'cmake'}
+[0.035003] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'build'}
+[0.036376] (rtabmap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/rtab_ros2_ws/build/rtabmap', '--', '-j8', '-l8'], 'cwd': '/home/jon/rtab_ros2_ws/build/rtabmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/rtabmap'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[0.040200] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'cmake'}
+[0.040975] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'build'}
+[0.041508] (rtabmap_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/rtab_ros2_ws/build/rtabmap_msgs', '--', '-j8', '-l8'], 'cwd': '/home/jon/rtab_ros2_ws/build/rtabmap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/rtabmap_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[0.044349] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'cmake'}
+[0.045273] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'build'}
+[0.045651] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/rtab_ros2_ws/build/zed_msgs', '--', '-j8', '-l8'], 'cwd': '/home/jon/rtab_ros2_ws/build/zed_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/zed_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[0.098699] (-) TimerEvent: {}
+[0.145955] (rtabmap) StdoutLine: {'line': b'[  5%] Built target rtabmap_utilite\n'}
+[0.155160] (zed_msgs) StdoutLine: {'line': b'[  0%] Built target zed_msgs__cpp\n'}
+[0.167034] (zed_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_zed_msgs\n'}
+[0.169288] (zed_msgs) StdoutLine: {'line': b'[ 12%] Built target zed_msgs__rosidl_generator_c\n'}
+[0.173400] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target rtabmap_msgs__cpp\n'}
+[0.186905] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_rtabmap_msgs\n'}
+[0.191447] (rtabmap_msgs) StdoutLine: {'line': b'[ 12%] Built target rtabmap_msgs__rosidl_generator_c\n'}
+[0.202266] (-) TimerEvent: {}
+[0.243424] (rtabmap) StdoutLine: {'line': b'[  6%] Built target res_tool\n'}
+[0.262596] (zed_msgs) StdoutLine: {'line': b'[ 24%] Built target zed_msgs__rosidl_typesupport_c\n'}
+[0.275043] (zed_msgs) StdoutLine: {'line': b'[ 36%] Built target zed_msgs__rosidl_typesupport_introspection_c\n'}
+[0.275380] (zed_msgs) StdoutLine: {'line': b'[ 48%] Built target zed_msgs__rosidl_typesupport_cpp\n'}
+[0.275557] (zed_msgs) StdoutLine: {'line': b'[ 60%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.285046] (zed_msgs) StdoutLine: {'line': b'[ 72%] Built target zed_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.302400] (-) TimerEvent: {}
+[0.310872] (rtabmap_msgs) StdoutLine: {'line': b'[ 25%] Built target rtabmap_msgs__rosidl_typesupport_c\n'}
+[0.315831] (rtabmap_msgs) StdoutLine: {'line': b'[ 37%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.321206] (zed_msgs) StdoutLine: {'line': b'[ 84%] Built target zed_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.327193] (rtabmap_msgs) StdoutLine: {'line': b'[ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c\n'}
+[0.328697] (rtabmap_msgs) StdoutLine: {'line': b'[ 62%] Built target rtabmap_msgs__rosidl_typesupport_cpp\n'}
+[0.337643] (rtabmap_msgs) StdoutLine: {'line': b'[ 75%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.342516] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.371070] (zed_msgs) StdoutLine: {'line': b'[ 84%] Built target zed_msgs\n'}
+[0.390455] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs\n'}
+[0.402524] (-) TimerEvent: {}
+[0.417290] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__py\n'}
+[0.441133] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__py\n'}
+[0.479048] (zed_msgs) StdoutLine: {'line': b'[ 96%] Built target zed_msgs__rosidl_generator_py\n'}
+[0.507182] (-) TimerEvent: {}
+[0.532030] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_generator_py\n'}
+[0.532928] (zed_msgs) StdoutLine: {'line': b'[ 97%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.542286] (zed_msgs) StdoutLine: {'line': b'[ 99%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.551121] (zed_msgs) StdoutLine: {'line': b'[100%] Built target zed_msgs__rosidl_typesupport_c__pyext\n'}
+[0.589715] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.592498] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext\n'}
+[0.592796] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.607323] (-) TimerEvent: {}
+[0.634618] (rtabmap) StdoutLine: {'line': b'[ 57%] Built target rtabmap_core\n'}
+[0.700030] (rtabmap) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target rtabmap_gui\x1b[0m\n'}
+[0.705658] (rtabmap) StdoutLine: {'line': b'[ 58%] Built target kitti_dataset\n'}
+[0.707449] (-) TimerEvent: {}
+[0.719429] (rtabmap) StdoutLine: {'line': b'[ 58%] Built target consoleApp\n'}
+[0.721682] (rtabmap) StdoutLine: {'line': b'[ 59%] Built target imagesJoiner\n'}
+[0.738054] (rtabmap) StdoutLine: {'line': b'[ 60%] Built target stereoEval\n'}
+[0.741288] (rtabmap) StdoutLine: {'line': b'[ 61%] Built target extractObject\n'}
+[0.748264] (rtabmap) StdoutLine: {'line': b'[ 62%] Built target camera\n'}
+[0.752422] (rtabmap) StdoutLine: {'line': b'[ 63%] Built target rgbd_dataset\n'}
+[0.788309] (rtabmap) StdoutLine: {'line': b'[ 64%] Built target recovery\n'}
+[0.807325] (rtabmap) StdoutLine: {'line': b'[ 64%] Built target euroc_dataset\n'}
+[0.807568] (-) TimerEvent: {}
+[0.820630] (rtabmap) StdoutLine: {'line': b'[ 65%] Built target reprocess\n'}
+[0.821498] (rtabmap) StdoutLine: {'line': b'[ 66%] Built target export\n'}
+[0.827643] (rtabmap) StdoutLine: {'line': b'[ 66%] Built target info\n'}
+[0.832686] (rtabmap) StdoutLine: {'line': b'[ 67%] Built target cleanupLocalGrids\n'}
+[0.839093] (rtabmap) StdoutLine: {'line': b'[ 68%] Built target detectMoreLoopClosures\n'}
+[0.841368] (rtabmap) StdoutLine: {'line': b'[ 68%] Built target rtabmap_gui_autogen\n'}
+[0.854520] (rtabmap) StdoutLine: {'line': b'[ 69%] Built target globalBundleAdjustment\n'}
+[0.869830] (rtabmap) StdoutLine: {'line': b'[ 70%] Built target lidar_viewer\n'}
+[0.907717] (-) TimerEvent: {}
+[0.970849] (rtabmap) StdoutLine: {'line': b'[ 86%] Built target rtabmap_gui\n'}
+[1.009199] (-) TimerEvent: {}
+[1.055782] (rtabmap) StdoutLine: {'line': b'[ 86%] Built target report\n'}
+[1.065509] (rtabmap) StdoutLine: {'line': b'[ 87%] Built target databaseViewer\n'}
+[1.065776] (rtabmap) StdoutLine: {'line': b'[ 88%] Built target rtabmap_app\n'}
+[1.065933] (rtabmap) StdoutLine: {'line': b'[ 89%] Built target odometryViewer\n'}
+[1.074850] (rtabmap) StdoutLine: {'line': b'[ 90%] Built target dataRecorder\n'}
+[1.078862] (rtabmap) StdoutLine: {'line': b'[ 91%] Built target calibration\n'}
+[1.082161] (rtabmap) StdoutLine: {'line': b'[ 92%] Built target rgbd_camera\n'}
+[1.090194] (rtabmap) StdoutLine: {'line': b'[ 93%] Built target epipolar_geometry\n'}
+[1.109340] (-) TimerEvent: {}
+[1.123205] (rtabmap) StdoutLine: {'line': b'[ 93%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target rgbd_mapping\x1b[0m\n'}
+[1.126558] (rtabmap) StdoutLine: {'line': b'[ 93%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target noEventsExample\x1b[0m\n'}
+[1.137906] (rtabmap) StdoutLine: {'line': b'[ 94%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target wifi_mapping\x1b[0m\n'}
+[1.138457] (rtabmap) StdoutLine: {'line': b'[ 95%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target lidar_mapping\x1b[0m\n'}
+[1.140313] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target matcher\n'}
+[1.144893] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target bow_mapping\n'}
+[1.165988] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target rgbd_mapping_autogen\n'}
+[1.168695] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target noEventsExample_autogen\n'}
+[1.186644] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target lidar_mapping_autogen\n'}
+[1.188438] (rtabmap) StdoutLine: {'line': b'[ 95%] Built target wifi_mapping_autogen\n'}
+[1.209483] (-) TimerEvent: {}
+[1.240226] (rtabmap) StdoutLine: {'line': b'[ 97%] Built target noEventsExample\n'}
+[1.246948] (rtabmap) StdoutLine: {'line': b'[ 98%] Built target rgbd_mapping\n'}
+[1.257888] (rtabmap) StdoutLine: {'line': b'[ 99%] Built target wifi_mapping\n'}
+[1.269549] (rtabmap) StdoutLine: {'line': b'[100%] Built target lidar_mapping\n'}
+[1.309633] (-) TimerEvent: {}
+[1.410047] (-) TimerEvent: {}
+[1.491935] (zed_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.510188] (-) TimerEvent: {}
+[1.571324] (rtabmap_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.595535] (zed_msgs) StdoutLine: {'line': b'writing zed_msgs.egg-info/PKG-INFO\n'}
+[1.610331] (-) TimerEvent: {}
+[1.665853] (zed_msgs) StdoutLine: {'line': b'writing dependency_links to zed_msgs.egg-info/dependency_links.txt\n'}
+[1.666964] (rtabmap_msgs) StdoutLine: {'line': b'writing rtabmap_msgs.egg-info/PKG-INFO\n'}
+[1.710496] (-) TimerEvent: {}
+[1.719582] (rtabmap) CommandEnded: {'returncode': 0}
+[1.729168] (rtabmap_msgs) StdoutLine: {'line': b'writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt\n'}
+[1.810623] (-) TimerEvent: {}
+[1.829332] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'install'}
+[1.845610] (rtabmap) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jon/rtab_ros2_ws/build/rtabmap'], 'cwd': '/home/jon/rtab_ros2_ws/build/rtabmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/rtabmap'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[1.858336] (rtabmap) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.858952] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.8\n'}
+[1.859154] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21\n'}
+[1.859356] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_utilite.so\n'}
+[1.859479] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.859716] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite\n'}
+[1.859860] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix\n'}
+[1.859978] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h\n'}
+[1.860092] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h\n'}
+[1.860302] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h\n'}
+[1.860545] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h\n'}
+[1.860676] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h\n'}
+[1.860802] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h\n'}
+[1.860921] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h\n'}
+[1.861094] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h\n'}
+[1.861240] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h\n'}
+[1.861349] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h\n'}
+[1.861459] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h\n'}
+[1.861566] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h\n'}
+[1.861675] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h\n'}
+[1.861780] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h\n'}
+[1.861966] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32\n'}
+[1.862081] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h\n'}
+[1.862231] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h\n'}
+[1.862352] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h\n'}
+[1.862567] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h\n'}
+[1.862782] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h\n'}
+[1.863342] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h\n'}
+[1.863505] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h\n'}
+[1.863710] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h\n'}
+[1.863837] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h\n'}
+[1.863981] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h\n'}
+[1.864121] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h\n'}
+[1.864255] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.864371] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite\n'}
+[1.864487] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h\n'}
+[1.864600] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake\n'}
+[1.864712] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake\n'}
+[1.864829] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0\n'}
+[1.864968] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-res_tool\n'}
+[1.865083] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_core.so.0.21.8\n'}
+[1.865227] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_core.so.0.21\n'}
+[1.865345] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_core.so\n'}
+[1.865464] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.865583] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core\n'}
+[1.865713] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h\n'}
+[1.865835] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h\n'}
+[1.865951] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LASWriter.h\n'}
+[1.866067] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h\n'}
+[1.866210] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h\n'}
+[1.866333] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h\n'}
+[1.866526] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h\n'}
+[1.866868] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h\n'}
+[1.867212] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h\n'}
+[1.867352] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h\n'}
+[1.867472] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h\n'}
+[1.867828] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h\n'}
+[1.867959] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h\n'}
+[1.868088] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h\n'}
+[1.868249] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h\n'}
+[1.868534] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h\n'}
+[1.868658] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h\n'}
+[1.868769] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams\n'}
+[1.868883] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h\n'}
+[1.869068] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h\n'}
+[1.869216] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h\n'}
+[1.869345] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h\n'}
+[1.869620] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h\n'}
+[1.869853] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h\n'}
+[1.869989] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h\n'}
+[1.870133] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h\n'}
+[1.870276] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h\n'}
+[1.870395] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h\n'}
+[1.870508] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h\n'}
+[1.870647] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h\n'}
+[1.870760] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h\n'}
+[1.870879] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h\n'}
+[1.871186] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl\n'}
+[1.871357] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp\n'}
+[1.871532] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp\n'}
+[1.871813] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp\n'}
+[1.871930] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp\n'}
+[1.872037] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h\n'}
+[1.872185] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h\n'}
+[1.872316] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h\n'}
+[1.872493] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo\n'}
+[1.872616] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h\n'}
+[1.872730] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h\n'}
+[1.872861] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h\n'}
+[1.872983] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h\n'}
+[1.873124] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptorExtractor.h\n'}
+[1.873353] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h\n'}
+[1.873472] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h\n'}
+[1.873583] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h\n'}
+[1.873696] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h\n'}
+[1.873879] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h\n'}
+[1.873999] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h\n'}
+[1.874138] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h\n'}
+[1.874276] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h\n'}
+[1.874394] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar\n'}
+[1.874503] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar/LidarVLP16.h\n'}
+[1.874615] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h\n'}
+[1.874725] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h\n'}
+[1.874882] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h\n'}
+[1.875020] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h\n'}
+[1.875365] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h\n'}
+[1.875485] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCapture.h\n'}
+[1.875668] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h\n'}
+[1.875777] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h\n'}
+[1.875883] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h\n'}
+[1.876001] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Lidar.h\n'}
+[1.876241] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h\n'}
+[1.876358] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h\n'}
+[1.876473] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera\n'}
+[1.876590] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h\n'}
+[1.876704] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h\n'}
+[1.876815] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h\n'}
+[1.876929] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h\n'}
+[1.877041] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h\n'}
+[1.877181] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h\n'}
+[1.877322] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h\n'}
+[1.877441] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h\n'}
+[1.877557] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h\n'}
+[1.877671] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h\n'}
+[1.877857] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h\n'}
+[1.877971] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraSeerSense.h\n'}
+[1.878080] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h\n'}
+[1.878222] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h\n'}
+[1.878405] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h\n'}
+[1.878525] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h\n'}
+[1.878640] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h\n'}
+[1.878754] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h\n'}
+[1.878870] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h\n'}
+[1.879037] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h\n'}
+[1.879332] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h\n'}
+[1.879606] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h\n'}
+[1.879725] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h\n'}
+[1.879843] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h\n'}
+[1.879956] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h\n'}
+[1.880070] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h\n'}
+[1.880219] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h\n'}
+[1.880344] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h\n'}
+[1.880459] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h\n'}
+[1.880574] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h\n'}
+[1.880748] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map\n'}
+[1.880890] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h\n'}
+[1.881000] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h\n'}
+[1.881127] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h\n'}
+[1.881317] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h\n'}
+[1.881435] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h\n'}
+[1.881552] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h\n'}
+[1.881662] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h\n'}
+[1.881779] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h\n'}
+[1.881893] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h\n'}
+[1.882009] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h\n'}
+[1.882146] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h\n'}
+[1.882277] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h\n'}
+[1.882390] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h\n'}
+[1.882508] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h\n'}
+[1.882722] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h\n'}
+[1.882875] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h\n'}
+[1.882999] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h\n'}
+[1.883148] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h\n'}
+[1.883444] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer\n'}
+[1.883591] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h\n'}
+[1.883711] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h\n'}
+[1.883820] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h\n'}
+[1.883998] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h\n'}
+[1.884134] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h\n'}
+[1.884265] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h\n'}
+[1.884379] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry\n'}
+[1.884488] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h\n'}
+[1.884594] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h\n'}
+[1.884706] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h\n'}
+[1.884813] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h\n'}
+[1.884924] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h\n'}
+[1.885042] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h\n'}
+[1.885240] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h\n'}
+[1.885435] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h\n'}
+[1.885575] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h\n'}
+[1.885685] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h\n'}
+[1.885801] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h\n'}
+[1.885912] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h\n'}
+[1.886246] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h\n'}
+[1.886396] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h\n'}
+[1.886651] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h\n'}
+[1.886879] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h\n'}
+[1.886999] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h\n'}
+[1.887131] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h\n'}
+[1.887502] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h\n'}
+[1.887635] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorEvent.h\n'}
+[1.887789] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h\n'}
+[1.887908] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.888022] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core\n'}
+[1.888654] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h\n'}
+[1.889456] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h\n'}
+[1.889589] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake\n'}
+[1.889714] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake\n'}
+[1.889829] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.8\n'}
+[1.889945] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_gui.so.0.21\n'}
+[1.890058] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/librtabmap_gui.so\n'}
+[1.891636] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.891788] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui\n'}
+[1.891902] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h\n'}
+[1.892014] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h\n'}
+[1.892143] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h\n'}
+[1.892269] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h\n'}
+[1.892376] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h\n'}
+[1.892487] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h\n'}
+[1.892590] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h\n'}
+[1.892694] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h\n'}
+[1.892800] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h\n'}
+[1.892903] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h\n'}
+[1.893012] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h\n'}
+[1.893172] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h\n'}
+[1.893298] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h\n'}
+[1.893408] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h\n'}
+[1.893515] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h\n'}
+[1.893627] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h\n'}
+[1.893730] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h\n'}
+[1.893834] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h\n'}
+[1.893940] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h\n'}
+[1.894136] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h\n'}
+[1.894286] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h\n'}
+[1.894394] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h\n'}
+[1.894505] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h\n'}
+[1.894622] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h\n'}
+[1.894728] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h\n'}
+[1.894840] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h\n'}
+[1.894951] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h\n'}
+[1.895057] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h\n'}
+[1.895213] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h\n'}
+[1.895329] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h\n'}
+[1.895438] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h\n'}
+[1.895706] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h\n'}
+[1.895818] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h\n'}
+[1.895926] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h\n'}
+[1.896034] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h\n'}
+[1.896172] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite\n'}
+[1.896295] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h\n'}
+[1.896397] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h\n'}
+[1.896526] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h\n'}
+[1.896635] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap\n'}
+[1.896738] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui\n'}
+[1.896850] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h\n'}
+[1.896968] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake\n'}
+[1.897080] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake\n'}
+[1.897226] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap\n'}
+[1.897441] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-console\n'}
+[1.897563] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-extractObject\n'}
+[1.897668] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-camera\n'}
+[1.897776] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-kitti_dataset\n'}
+[1.897890] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-rgbd_dataset\n'}
+[1.897999] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-euroc_dataset\n'}
+[1.898124] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-recovery\n'}
+[1.898262] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-reprocess\n'}
+[1.898369] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures\n'}
+[1.898475] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-export\n'}
+[1.898584] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-report\n'}
+[1.898700] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-info\n'}
+[1.898811] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids\n'}
+[1.898919] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment\n'}
+[1.899027] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-rgbd_camera\n'}
+[1.899165] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-lidar_viewer\n'}
+[1.899285] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-databaseViewer\n'}
+[1.899387] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-odometryViewer\n'}
+[1.899491] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-dataRecorder\n'}
+[1.899773] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/bin/rtabmap-calibration\n'}
+[1.899934] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake\n'}
+[1.900052] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake\n'}
+[1.900207] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake\n'}
+[1.900325] (rtabmap) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/rtabmap/share/rtabmap/package.xml\n'}
+[1.900447] (rtabmap) CommandEnded: {'returncode': 0}
+[1.910744] (-) TimerEvent: {}
+[2.011354] (-) TimerEvent: {}
+[2.049243] (rtabmap) JobEnded: {'identifier': 'rtabmap', 'rc': 0}
+[2.111505] (-) TimerEvent: {}
+[2.140079] (zed_msgs) StdoutLine: {'line': b'writing top-level names to zed_msgs.egg-info/top_level.txt\n'}
+[2.158361] (rtabmap_msgs) StdoutLine: {'line': b'writing top-level names to rtabmap_msgs.egg-info/top_level.txt\n'}
+[2.211631] (-) TimerEvent: {}
+[2.311994] (-) TimerEvent: {}
+[2.335343] (zed_msgs) StderrLine: {'line': b'\x1b[2;36m[12/02/24 18:26:32]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending     \x1b]8;id=310833;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=818521;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[2.335740] (zed_msgs) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         there aren't any                          \x1b[2m         \x1b[0m\n"}
+[2.353826] (rtabmap_msgs) StderrLine: {'line': b'\x1b[2;36m[12/02/24 18:26:32]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending     \x1b]8;id=712445;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=13115;file:///home/jon/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[2.354227] (rtabmap_msgs) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         there aren't any                          \x1b[2m         \x1b[0m\n"}
+[2.412147] (-) TimerEvent: {}
+[2.486798] (zed_msgs) StdoutLine: {'line': b"reading manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[2.488013] (zed_msgs) StdoutLine: {'line': b"writing manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[2.502428] (rtabmap_msgs) StdoutLine: {'line': b"reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[2.503987] (rtabmap_msgs) StdoutLine: {'line': b"writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[2.512284] (-) TimerEvent: {}
+[2.581277] (zed_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_zed_msgs_egg\n'}
+[2.598750] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rtabmap_msgs_egg\n'}
+[2.601976] (zed_msgs) CommandEnded: {'returncode': 0}
+[2.603060] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'install'}
+[2.604173] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jon/rtab_ros2_ws/build/zed_msgs'], 'cwd': '/home/jon/rtab_ros2_ws/build/zed_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/zed_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[2.612417] (-) TimerEvent: {}
+[2.615358] (zed_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.616264] (zed_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.616519] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs\n'}
+[2.617989] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h\n'}
+[2.618427] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h\n'}
+[2.618643] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h\n'}
+[2.618751] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h\n'}
+[2.618852] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h\n'}
+[2.618997] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h\n'}
+[2.619400] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h\n'}
+[2.619524] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h\n'}
+[2.619617] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h\n'}
+[2.619758] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h\n'}
+[2.619997] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[2.620098] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[2.620210] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[2.620308] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h\n'}
+[2.620408] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h\n'}
+[2.620698] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h\n'}
+[2.620900] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h\n'}
+[2.621006] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h\n'}
+[2.622235] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h\n'}
+[2.623592] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h\n'}
+[2.623843] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h\n'}
+[2.623954] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h\n'}
+[2.624488] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h\n'}
+[2.624668] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h\n'}
+[2.624779] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h\n'}
+[2.624886] (rtabmap_msgs) CommandEnded: {'returncode': 0}
+[2.625348] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h\n'}
+[2.625592] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h\n'}
+[2.625722] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h\n'}
+[2.625822] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h\n'}
+[2.625930] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h\n'}
+[2.626037] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h\n'}
+[2.626165] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h\n'}
+[2.626284] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h\n'}
+[2.626386] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h\n'}
+[2.626490] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h\n'}
+[2.626646] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h\n'}
+[2.626766] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h\n'}
+[2.626873] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h\n'}
+[2.626977] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h\n'}
+[2.627158] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h\n'}
+[2.627277] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h\n'}
+[2.627441] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h\n'}
+[2.627568] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h\n'}
+[2.627666] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h\n'}
+[2.627772] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h\n'}
+[2.627875] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h\n'}
+[2.627979] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h\n'}
+[2.628081] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h\n'}
+[2.628209] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h\n'}
+[2.628315] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h\n'}
+[2.628423] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h\n'}
+[2.628597] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h\n'}
+[2.628714] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h\n'}
+[2.628818] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h\n'}
+[2.628923] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h\n'}
+[2.629087] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h\n'}
+[2.629292] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h\n'}
+[2.629426] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h\n'}
+[2.629511] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h\n'}
+[2.629618] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h\n'}
+[2.629698] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h\n'}
+[2.629800] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h\n'}
+[2.629902] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.630005] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h\n'}
+[2.630095] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h\n'}
+[2.630240] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h\n'}
+[2.630346] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h\n'}
+[2.630419] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h\n'}
+[2.630500] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h\n'}
+[2.630601] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h\n'}
+[2.630673] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h\n'}
+[2.630745] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h\n'}
+[2.630835] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h\n'}
+[2.630907] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h\n'}
+[2.630984] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h\n'}
+[2.631059] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h\n'}
+[2.631151] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h\n'}
+[2.631230] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh\n'}
+[2.631309] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv\n'}
+[2.631875] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632057] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632217] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632361] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632511] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632667] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632825] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[2.632981] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633142] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633305] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633454] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633608] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633766] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.633920] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.634079] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[2.634264] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[2.634415] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.634565] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.634731] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[2.634878] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h\n'}
+[2.636117] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp\n'}
+[2.636343] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp\n'}
+[2.636474] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp\n'}
+[2.636583] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp\n'}
+[2.636714] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp\n'}
+[2.636870] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp\n'}
+[2.637029] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp\n'}
+[2.637203] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp\n'}
+[2.637359] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp\n'}
+[2.637508] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp\n'}
+[2.637678] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[2.637830] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[2.637985] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[2.638164] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp\n'}
+[2.638366] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp\n'}
+[2.638509] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp\n'}
+[2.638658] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp\n'}
+[2.638824] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp\n'}
+[2.639001] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp\n'}
+[2.639197] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp\n'}
+[2.639383] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp\n'}
+[2.639684] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp\n'}
+[2.639777] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp\n'}
+[2.639938] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp\n'}
+[2.640059] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp\n'}
+[2.640217] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp\n'}
+[2.640357] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp\n'}
+[2.640519] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp\n'}
+[2.640744] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp\n'}
+[2.641032] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp\n'}
+[2.641322] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp\n'}
+[2.641528] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp\n'}
+[2.641734] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp\n'}
+[2.641946] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp\n'}
+[2.642160] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp\n'}
+[2.642401] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp\n'}
+[2.642581] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp\n'}
+[2.642753] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp\n'}
+[2.643031] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp\n'}
+[2.643278] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp\n'}
+[2.643452] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp\n'}
+[2.643798] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp\n'}
+[2.643967] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp\n'}
+[2.644152] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp\n'}
+[2.644419] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp\n'}
+[2.644581] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp\n'}
+[2.644813] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp\n'}
+[2.645063] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp\n'}
+[2.645198] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp\n'}
+[2.645384] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp\n'}
+[2.645464] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp\n'}
+[2.645548] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp\n'}
+[2.645670] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp\n'}
+[2.645754] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp\n'}
+[2.645852] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp\n'}
+[2.645940] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp\n'}
+[2.646041] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp\n'}
+[2.646180] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp\n'}
+[2.646280] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp\n'}
+[2.646426] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp\n'}
+[2.646504] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp\n'}
+[2.646593] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp\n'}
+[2.646682] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp\n'}
+[2.646794] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp\n'}
+[2.646890] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp\n'}
+[2.647008] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp\n'}
+[2.647078] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp\n'}
+[2.647204] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp\n'}
+[2.647342] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp\n'}
+[2.647494] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp\n'}
+[2.647732] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp\n'}
+[2.647836] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp\n'}
+[2.647922] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp\n'}
+[2.647992] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp\n'}
+[2.648112] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp\n'}
+[2.648197] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp\n'}
+[2.649156] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.649293] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.649437] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.649584] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.649728] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.649876] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650015] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650171] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650328] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650473] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650626] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650770] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.650923] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651071] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651247] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651389] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651541] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.651734] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651896] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.652020] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.652822] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h\n'}
+[2.652995] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h\n'}
+[2.653129] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[2.653277] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.653425] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h\n'}
+[2.653561] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h\n'}
+[2.653709] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h\n'}
+[2.653858] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[2.654006] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h\n'}
+[2.654175] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h\n'}
+[2.654332] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[2.654477] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.654614] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.654997] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h\n'}
+[2.655972] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h\n'}
+[2.656158] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h\n'}
+[2.656254] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.656323] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[2.656393] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h\n'}
+[2.656461] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h\n'}
+[2.656630] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.656770] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.656909] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657054] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657227] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657371] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657529] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657672] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657819] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.657966] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658132] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658308] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658477] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658628] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658772] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.658945] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.659096] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.659295] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.659434] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.659737] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh\n'}
+[2.659899] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv\n'}
+[2.660268] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/PKG-INFO\n'}
+[2.660450] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/SOURCES.txt\n'}
+[2.660597] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/dependency_links.txt\n'}
+[2.660756] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-4.2.2-py3.10.egg-info/top_level.txt\n'}
+[2.662284] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py\n'}
+[2.662560] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.662736] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.662863] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.663191] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so\n'}
+[2.663351] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py\n'}
+[2.663462] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py\n'}
+[2.663635] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c\n'}
+[2.663738] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py\n'}
+[2.663809] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c\n'}
+[2.663911] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py\n'}
+[2.664061] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c\n'}
+[2.664224] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py\n'}
+[2.664382] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c\n'}
+[2.664563] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py\n'}
+[2.664722] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c\n'}
+[2.665011] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py\n'}
+[2.665135] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c\n'}
+[2.665227] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py\n'}
+[2.665372] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c\n'}
+[2.665441] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py\n'}
+[2.665550] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c\n'}
+[2.665671] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py\n'}
+[2.665815] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c\n'}
+[2.665959] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py\n'}
+[2.666212] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c\n'}
+[2.666393] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py\n'}
+[2.666506] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c\n'}
+[2.666650] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py\n'}
+[2.666788] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c\n'}
+[2.666932] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py\n'}
+[2.667072] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c\n'}
+[2.667222] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py\n'}
+[2.667371] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c\n'}
+[2.667515] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py\n'}
+[2.667659] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c\n'}
+[2.667933] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py\n'}
+[2.668224] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c\n'}
+[2.668345] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py\n'}
+[2.668489] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py\n'}
+[2.668577] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c\n'}
+[2.668732] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py\n'}
+[2.668819] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c\n'}
+[2.668964] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py\n'}
+[2.669088] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c\n'}
+[2.669260] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.669399] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.669701] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.669837] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.670085] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.670392] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.670592] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl\n'}
+[2.670871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl\n'}
+[2.671040] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl\n'}
+[2.671215] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl\n'}
+[2.671361] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl\n'}
+[2.671513] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl\n'}
+[2.671693] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl\n'}
+[2.671871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl\n'}
+[2.672048] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl\n'}
+[2.672558] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl\n'}
+[2.672727] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl\n'}
+[2.672819] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl\n'}
+[2.672959] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl\n'}
+[2.673117] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl\n'}
+[2.673274] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl\n'}
+[2.673428] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl\n'}
+[2.673628] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl\n'}
+[2.673801] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl\n'}
+[2.674049] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl\n'}
+[2.674216] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg\n'}
+[2.674354] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg\n'}
+[2.674516] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg\n'}
+[2.674693] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg\n'}
+[2.674866] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg\n'}
+[2.675166] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg\n'}
+[2.675348] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg\n'}
+[2.675495] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg\n'}
+[2.675613] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg\n'}
+[2.675746] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg\n'}
+[2.675921] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg\n'}
+[2.676109] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg\n'}
+[2.676386] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg\n'}
+[2.676806] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg\n'}
+[2.676923] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg\n'}
+[2.677059] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg\n'}
+[2.677229] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv\n'}
+[2.677321] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg\n'}
+[2.677506] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg\n'}
+[2.677636] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv\n'}
+[2.677733] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg\n'}
+[2.677887] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg\n'}
+[2.678194] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv\n'}
+[2.678358] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg\n'}
+[2.678499] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg\n'}
+[2.678833] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/virtual.stl\n'}
+[2.678968] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zed.stl\n'}
+[2.679112] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zed2.stl\n'}
+[2.679263] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zed2i.stl\n'}
+[2.679675] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zedm.stl\n'}
+[2.679788] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zedx.stl\n'}
+[2.679897] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zedxm.stl\n'}
+[2.679968] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zedxone4k.stl\n'}
+[2.680075] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/meshes/zedxonegs.stl\n'}
+[2.680281] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs\n'}
+[2.680444] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs\n'}
+[2.680609] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh\n'}
+[2.680784] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv\n'}
+[2.681046] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/path.sh\n'}
+[2.681193] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv\n'}
+[2.681336] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/local_setup.bash\n'}
+[2.681509] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/local_setup.sh\n'}
+[2.681682] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh\n'}
+[2.681871] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv\n'}
+[2.682000] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/package.dsv\n'}
+[2.696547] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs\n'}
+[2.696820] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.696952] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.697067] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.697236] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.697417] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.697596] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.697775] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.698037] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake\n'}
+[2.698212] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake\n'}
+[2.698336] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/package.xml\n'}
+[2.698610] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so\n'}
+[2.698959] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.699425] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.699702] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.700009] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so\n'}
+[2.700419] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.700759] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so\n'}
+[2.712533] (-) TimerEvent: {}
+[2.746494] (zed_msgs) StdoutLine: {'line': b"Listing '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...\n"}
+[2.746894] (zed_msgs) StdoutLine: {'line': b"Listing '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...\n"}
+[2.746980] (zed_msgs) StdoutLine: {'line': b"Listing '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...\n"}
+[2.753394] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so\n'}
+[2.753731] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake\n'}
+[2.753860] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-release.cmake\n'}
+[2.753940] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.754089] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[2.754205] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.754331] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.754411] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[2.754524] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.754604] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.754697] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.754787] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[2.754950] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.755147] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.755944] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.756195] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.756501] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.756589] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jon/rtab_ros2_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[2.759172] (zed_msgs) CommandEnded: {'returncode': 0}
+[2.786234] (zed_msgs) JobEnded: {'identifier': 'zed_msgs', 'rc': 0}
+[2.787692] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[2.799353] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[2.800042] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/home/jon/rtab_ros2_ws/src/zed-ros2-wrapper/zed_components', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/zed_components'], 'cwd': '/home/jon/rtab_ros2_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jon'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap_slam/lib:/home/jon/rtab_ros2_ws/install/rtabmap_odom/lib:/home/jon/rtab_ros2_ws/install/rtabmap_util/lib:/home/jon/rtab_ros2_ws/install/rtabmap_sync/lib:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib:/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('OLDPWD', '/home/jon/rtab_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/rtab_ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/:/home/jon/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/'), ('SESSION_MANAGER', 'local/hermit-purple:@/tmp/.ICE-unix/1387,unix/hermit-purple:/tmp/.ICE-unix/1387'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc286609_be27_4dd1_91ea_ce17caf1f50a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/rtab_ros2_ws/build/zed_components'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/rtab_ros2_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/jon/rtab_ros2_ws/build/rtabmap_python:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jon/rtab_ros2_ws/install/zed_msgs:/home/jon/rtab_ros2_ws/install/rtabmap_ros:/home/jon/rtab_ros2_ws/install/rtabmap_launch:/home/jon/rtab_ros2_ws/install/rtabmap_examples:/home/jon/rtab_ros2_ws/install/rtabmap_demos:/home/jon/rtab_ros2_ws/install/rtabmap_viz:/home/jon/rtab_ros2_ws/install/rtabmap_slam:/home/jon/rtab_ros2_ws/install/rtabmap_odom:/home/jon/rtab_ros2_ws/install/rtabmap_util:/home/jon/rtab_ros2_ws/install/rtabmap_sync:/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins:/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[2.812654] (-) TimerEvent: {}
+[2.836678] (zed_components) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:81 (find_package):\n'}
+[2.836937] (zed_components) StderrLine: {'line': b'  By not providing "FindZED.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.837021] (zed_components) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "ZED", but\n'}
+[2.837114] (zed_components) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.837212] (zed_components) StderrLine: {'line': b'\n'}
+[2.837286] (zed_components) StderrLine: {'line': b'  Could not find a package configuration file provided by "ZED" with any of\n'}
+[2.837361] (zed_components) StderrLine: {'line': b'  the following names:\n'}
+[2.837434] (zed_components) StderrLine: {'line': b'\n'}
+[2.837600] (zed_components) StderrLine: {'line': b'    ZEDConfig.cmake\n'}
+[2.837763] (zed_components) StderrLine: {'line': b'    zed-config.cmake\n'}
+[2.837921] (zed_components) StderrLine: {'line': b'\n'}
+[2.838081] (zed_components) StderrLine: {'line': b'  Add the installation prefix of "ZED" to CMAKE_PREFIX_PATH or set "ZED_DIR"\n'}
+[2.838485] (zed_components) StderrLine: {'line': b'  to a directory containing one of the above files.  If "ZED" provides a\n'}
+[2.838688] (zed_components) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[2.838870] (zed_components) StderrLine: {'line': b'\n'}
+[2.839038] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[2.839466] (zed_components) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.839940] (zed_components) StdoutLine: {'line': b'See also "/home/jon/rtab_ros2_ws/build/zed_components/CMakeFiles/CMakeOutput.log".\n'}
+[2.840951] (zed_components) CommandEnded: {'returncode': 1}
+[2.869673] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 1}
+[2.912793] (-) TimerEvent: {}
+[3.013159] (-) TimerEvent: {}
+[3.113452] (-) TimerEvent: {}
+[3.213772] (-) TimerEvent: {}
+[3.314216] (-) TimerEvent: {}
+[3.352427] (rtabmap_python) JobEnded: {'identifier': 'rtabmap_python', 'rc': 'SIGINT'}
+[3.414321] (-) TimerEvent: {}
+[3.514613] (-) TimerEvent: {}
+[3.614951] (-) TimerEvent: {}
+[3.715354] (-) TimerEvent: {}
+[3.815698] (-) TimerEvent: {}
+[3.916157] (-) TimerEvent: {}
+[4.016619] (-) TimerEvent: {}
+[4.117150] (-) TimerEvent: {}
+[4.217557] (-) TimerEvent: {}
+[4.317973] (-) TimerEvent: {}
+[4.418296] (-) TimerEvent: {}
+[4.518791] (-) TimerEvent: {}
+[4.619148] (-) TimerEvent: {}
+[4.696128] (rtabmap_msgs) JobEnded: {'identifier': 'rtabmap_msgs', 'rc': 'SIGINT'}
+[4.707114] (rtabmap_conversions) JobSkipped: {'identifier': 'rtabmap_conversions'}
+[4.707516] (rtabmap_rviz_plugins) JobSkipped: {'identifier': 'rtabmap_rviz_plugins'}
+[4.707639] (rtabmap_sync) JobSkipped: {'identifier': 'rtabmap_sync'}
+[4.707743] (rtabmap_util) JobSkipped: {'identifier': 'rtabmap_util'}
+[4.707843] (zed_wrapper) JobSkipped: {'identifier': 'zed_wrapper'}
+[4.707952] (rtabmap_odom) JobSkipped: {'identifier': 'rtabmap_odom'}
+[4.708055] (rtabmap_slam) JobSkipped: {'identifier': 'rtabmap_slam'}
+[4.708196] (rtabmap_viz) JobSkipped: {'identifier': 'rtabmap_viz'}
+[4.708395] (zed_ros2) JobSkipped: {'identifier': 'zed_ros2'}
+[4.708472] (rtabmap_demos) JobSkipped: {'identifier': 'rtabmap_demos'}
+[4.709014] (rtabmap_examples) JobSkipped: {'identifier': 'rtabmap_examples'}
+[4.709137] (rtabmap_launch) JobSkipped: {'identifier': 'rtabmap_launch'}
+[4.709232] (rtabmap_ros) JobSkipped: {'identifier': 'rtabmap_ros'}
+[4.709314] (-) EventReactorShutdown: {}

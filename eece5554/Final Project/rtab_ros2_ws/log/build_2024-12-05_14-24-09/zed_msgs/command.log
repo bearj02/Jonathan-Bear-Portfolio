@@ -1,0 +1,4 @@
+Invoking command in '/home/jon/rtab_ros2_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/zed_msgs
+Invoked command in '/home/jon/rtab_ros2_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/zed_msgs
+Invoking command in '/home/jon/rtab_ros2_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/zed_msgs
+Invoked command in '/home/jon/rtab_ros2_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/zed_msgs

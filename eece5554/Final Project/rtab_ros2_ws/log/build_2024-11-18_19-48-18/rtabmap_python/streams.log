@@ -1,0 +1,18 @@
+[2.590s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_python': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build --no-deps symlink_data
+[3.709s] running develop
+[3.709s] /home/jon/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.709s]   warnings.warn(
+[4.373s] running egg_info
+[4.454s] writing rtabmap_python.egg-info/PKG-INFO
+[4.513s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[4.802s] writing requirements to rtabmap_python.egg-info/requires.txt
+[4.857s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[4.999s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[5.141s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[5.143s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[5.242s] running build_ext
+[5.242s] Creating /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[5.243s] 
+[5.243s] Installed /home/jon/rtab_ros2_ws/build/rtabmap_python
+[5.243s] running symlink_data
+[5.325s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/jon/rtab_ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jon/rtab_ros2_ws/build/rtabmap_python/build --no-deps symlink_data

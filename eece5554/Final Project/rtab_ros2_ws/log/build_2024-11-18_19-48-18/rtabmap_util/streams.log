@@ -1,0 +1,98 @@
+[0.028s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_util
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_util_plugins[0m
+[0.179s] [  2%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[38.209s] [  5%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[74.256s] [  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[92.093s] [ 10%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/lidar_deskewing.cpp.o[0m
+[113.903s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[132.384s] [ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_split.cpp.o[0m
+[144.485s] [ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/map_assembler.cpp.o[0m
+[170.761s] [ 21%] [32m[1mLinking CXX shared library librtabmap_util_plugins.so[0m
+[174.208s] [ 36%] Built target rtabmap_util_plugins
+[174.251s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[178.076s] [ 42%] [32m[1mLinking CXX executable rgbd_relay[0m
+[180.617s] [ 42%] Built target rtabmap_rgbd_relay
+[180.654s] [ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_split.dir/src/RGBDSplitNode.cpp.o[0m
+[184.498s] [ 47%] [32m[1mLinking CXX executable rgbd_split[0m
+[186.748s] [ 47%] Built target rtabmap_rgbd_split
+[186.788s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_map_assembler.dir/src/MapAssemblerNode.cpp.o[0m
+[198.061s] [ 52%] [32m[1mLinking CXX executable map_assembler[0m
+[201.540s] [ 52%] Built target rtabmap_map_assembler
+[201.580s] [ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_imu_to_tf.dir/src/ImuToTFNode.cpp.o[0m
+[205.589s] [ 57%] [32m[1mLinking CXX executable imu_to_tf[0m
+[207.827s] [ 57%] Built target rtabmap_imu_to_tf
+[207.864s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_disparity_to_depth.dir/src/DisparityToDepthNode.cpp.o[0m
+[211.590s] [ 63%] [32m[1mLinking CXX executable disparity_to_depth[0m
+[213.811s] [ 63%] Built target rtabmap_disparity_to_depth
+[213.845s] [ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_lidar_deskewing.dir/src/LidarDeskewingNode.cpp.o[0m
+[217.943s] [ 68%] [32m[1mLinking CXX executable lidar_deskewing[0m
+[220.273s] [ 68%] Built target rtabmap_lidar_deskewing
+[220.319s] [ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyz.dir/src/PointCloudXYZNode.cpp.o[0m
+[226.621s] [ 73%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+[228.803s] [ 73%] Built target rtabmap_point_cloud_xyz
+[228.843s] [ 76%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/src/PointCloudXYZRGBNode.cpp.o[0m
+[237.753s] [ 78%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[240.075s] [ 78%] Built target rtabmap_point_cloud_xyzrgb
+[240.120s] [ 81%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[244.184s] [ 84%] [32m[1mLinking CXX executable pointcloud_to_depthimage[0m
+[246.508s] [ 84%] Built target rtabmap_pointcloud_to_depthimage
+[246.550s] [ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_obstacles_detection.dir/src/ObstaclesDetectionNode.cpp.o[0m
+[258.275s] [ 89%] [32m[1mLinking CXX executable obstacles_detection[0m
+[261.717s] [ 89%] Built target rtabmap_obstacles_detection
+[261.766s] [ 92%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_aggregator.dir/src/PointCloudAggregatorNode.cpp.o[0m
+[265.706s] [ 94%] [32m[1mLinking CXX executable point_cloud_aggregator[0m
+[267.947s] [ 94%] Built target rtabmap_point_cloud_aggregator
+[267.984s] [ 97%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[280.289s] [100%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[282.498s] [100%] Built target rtabmap_point_cloud_assembler
+[282.526s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap_util
+[282.679s] Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_util
+[282.689s] -- Install configuration: "Release"
+[282.690s] -- Execute custom install script
+[282.690s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.sh
+[282.706s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/library_path.dsv
+[282.719s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/transform_to_tf.py
+[282.731s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/yaml_to_camera_info.py
+[282.743s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/republish_tf_static.py
+[282.755s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/imu_to_tf
+[282.766s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/disparity_to_depth
+[282.779s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_relay
+[282.790s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/rgbd_split
+[282.802s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/lidar_deskewing
+[282.822s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyz
+[282.842s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyzrgb
+[282.863s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/pointcloud_to_depthimage
+[282.877s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/obstacles_detection
+[282.890s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_aggregator
+[282.903s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/point_cloud_assembler
+[282.924s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/rtabmap_util/map_assembler
+[282.938s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/ament_index/resource_index/package_run_dependencies/rtabmap_util
+[282.951s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/ament_index/resource_index/parent_prefix_path/rtabmap_util
+[282.970s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.sh
+[282.989s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.dsv
+[283.002s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/path.sh
+[283.016s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/environment/path.dsv
+[283.030s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/local_setup.bash
+[283.043s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/local_setup.sh
+[283.056s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/local_setup.zsh
+[283.069s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/local_setup.dsv
+[283.084s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/package.dsv
+[283.096s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/ament_index/resource_index/packages/rtabmap_util
+[283.110s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/ament_index/resource_index/rclcpp_components/rtabmap_util
+[283.122s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[283.135s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[283.148s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_targets-extras.cmake
+[283.171s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_libraries-extras.cmake
+[283.190s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig.cmake
+[283.202s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig-version.cmake
+[283.215s] -- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/package.xml
+[283.228s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so
+[283.257s] -- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_util/lib/librtabmap_util_plugins.so" to ""
+[283.258s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/include
+[283.258s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/include/rtabmap_util
+[283.258s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/include/rtabmap_util/visibility.h
+[283.259s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+[283.259s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+[283.261s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+[283.261s] -- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-release.cmake
+[283.266s] Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions:/home/jon/rtab_ros2_ws/install/rtabmap_msgs:/home/jon/rtab_ros2_ws/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/rtab_ros2_ws/install/rtabmap_conversions/lib:/home/jon/rtab_ros2_ws/install/rtabmap_msgs/lib:/home/jon/rtab_ros2_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jon/rtab_ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jon/rtab_ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jon/rtab_ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/jon/rtab_ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap_util

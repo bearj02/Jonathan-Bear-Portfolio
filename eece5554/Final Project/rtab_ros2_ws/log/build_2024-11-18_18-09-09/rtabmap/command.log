@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap
+Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/rtab_ros2_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/rtabmap
+Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap -- -j8 -l8
+Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/rtab_ros2_ws/build/rtabmap -- -j8 -l8
+Invoking command in '/home/jon/rtab_ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap
+Invoked command in '/home/jon/rtab_ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/rtab_ros2_ws/build/rtabmap

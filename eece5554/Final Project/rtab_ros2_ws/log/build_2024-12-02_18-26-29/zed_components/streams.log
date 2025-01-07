@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/jon/rtab_ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/jon/rtab_ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/zed_components
+[0.049s] [31mCMake Error at CMakeLists.txt:81 (find_package):
+[0.049s]   By not providing "FindZED.cmake" in CMAKE_MODULE_PATH this project has
+[0.049s]   asked CMake to find a package configuration file provided by "ZED", but
+[0.049s]   CMake did not find one.
+[0.050s] 
+[0.050s]   Could not find a package configuration file provided by "ZED" with any of
+[0.050s]   the following names:
+[0.050s] 
+[0.050s]     ZEDConfig.cmake
+[0.050s]     zed-config.cmake
+[0.050s] 
+[0.051s]   Add the installation prefix of "ZED" to CMAKE_PREFIX_PATH or set "ZED_DIR"
+[0.051s]   to a directory containing one of the above files.  If "ZED" provides a
+[0.051s]   separate development package or SDK, be sure it has been installed.
+[0.051s] 
+[0.052s] [0m
+[0.052s] -- Configuring incomplete, errors occurred!
+[0.052s] See also "/home/jon/rtab_ros2_ws/build/zed_components/CMakeFiles/CMakeOutput.log".
+[0.054s] Invoked command in '/home/jon/rtab_ros2_ws/build/zed_components' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jon/rtab_ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/jon/rtab_ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jon/rtab_ros2_ws/install/zed_components

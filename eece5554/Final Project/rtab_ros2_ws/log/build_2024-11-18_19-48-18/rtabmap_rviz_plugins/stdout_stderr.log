@@ -1,0 +1,33 @@
+[ 16%] [34m[1mAutomatic MOC for target rtabmap_rviz_plugins[0m
+[ 16%] Built target rtabmap_rviz_plugins_autogen
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_rviz_plugins[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librtabmap_rviz_plugins.so[0m
+[100%] Built target rtabmap_rviz_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins//rviz_plugins.xml
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/rtabmap_rviz_plugins
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/rtabmap_rviz_plugins
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.sh
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.dsv
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.bash
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.sh
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.zsh
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.dsv
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.dsv
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/packages/rtabmap_rviz_plugins
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rtabmap_rviz_plugins
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig.cmake
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig-version.cmake
+-- Symlinking: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.xml
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapCloudDisplay.h
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/visibility.h
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapGraphDisplay.h
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h
+-- Installing: /home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so
+-- Set runtime path of "/home/jon/rtab_ros2_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so" to ""

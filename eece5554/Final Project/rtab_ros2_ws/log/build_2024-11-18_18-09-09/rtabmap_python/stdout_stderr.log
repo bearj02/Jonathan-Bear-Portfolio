@@ -1,0 +1,23 @@
+running develop
+/home/jon/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating rtabmap_python.egg-info
+writing rtabmap_python.egg-info/PKG-INFO
+writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+writing requirements to rtabmap_python.egg-info/requires.txt
+writing top-level names to rtabmap_python.egg-info/top_level.txt
+writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jon/rtab_ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+
+Installed /home/jon/rtab_ros2_ws/build/rtabmap_python
+running symlink_data
+creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index
+creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index
+creating /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+symbolically linking /home/jon/rtab_ros2_ws/build/rtabmap_python/resource/rtabmap_python -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+symbolically linking /home/jon/rtab_ros2_ws/build/rtabmap_python/package.xml -> /home/jon/rtab_ros2_ws/install/rtabmap_python/share/rtabmap_python
